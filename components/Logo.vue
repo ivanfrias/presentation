@@ -2,7 +2,7 @@
   <div class="headerBlock">
   	<div class="headerBlockItem">
 	  <div class="left">
-		<span><img class="oval" src="~/assets/me.jpg"></img>Ivan Frias</span>
+		<span><img class="oval" src="~/assets/check.png"></img>Ivan Frias</span>
 	  </div>
 	</div>
 	<div class="headerBlockItem">
