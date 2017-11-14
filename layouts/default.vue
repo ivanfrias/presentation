@@ -24,7 +24,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300');
 
 body {
-  background: url('../static/brick.jpg') no-repeat fixed center;
+  background: url('~/assets/brick.jpg') no-repeat fixed center;
   background-size: 100% 100%;
 
   font-family: 'Open Sans Condensed', sans-serif;
