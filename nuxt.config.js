@@ -37,5 +37,8 @@ module.exports = {
   },
   modules: [
 	'@nuxtjs/font-awesome',
-  ]
+  ],
+  router: {
+	  base: '/presentation/'
+  }
 }
