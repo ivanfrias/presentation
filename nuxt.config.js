@@ -10,7 +10,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'personal portfolio webapp' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+	  { rel: 'manifest', href: '/manifest.json' },
     ]
   },
   /*
