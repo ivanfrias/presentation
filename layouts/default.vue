@@ -20,8 +20,16 @@
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300');
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('~/assets/OpenSansCondensed-Light.ttf');
+}
+
+@font-face {
+	font-family: 'Amatic SC';
+	src: url('~/assets/AmaticSC-Regular.ttf');
+}
 
 body {
   background: url('~/assets/brick.png') no-repeat fixed center;

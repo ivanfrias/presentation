@@ -31,8 +31,6 @@
 
 <style>
 
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-
 .oval {
   width: 35px;
   height: 35px;
