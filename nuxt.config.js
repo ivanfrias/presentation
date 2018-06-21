@@ -35,7 +35,8 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    maxChunkSize: 500000,
   },
 
   router: {
