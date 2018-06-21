@@ -11,7 +11,8 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-	  { rel: 'manifest', href: '/manifest.json' },
+	    { rel: 'manifest', href: '/manifest.json' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
     ]
   },
   /*
@@ -36,10 +37,14 @@ module.exports = {
       }
     }
   },
-  modules: [
-	'@nuxtjs/font-awesome',
-  ],
+
   router: {
 	  base: '/presentation/'
-  }
+  },
+
+  plugins : ['~/plugins/vuetify'],
+
+  css : [
+    {src: 'vuetify/dist/vuetify.min.css'},
+  ]
 }

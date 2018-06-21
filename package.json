@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "ivanfrias-personal-website",
   "version": "1.0.0",
-  "description": "personal portfolio webapp",
+  "description": "Personal web-site",
   "author": "Ivan Frias <frias.ivan@gmail.com>",
   "private": true,
   "scripts": {
@@ -16,8 +16,10 @@
   "dependencies": {
     "@nuxtjs/font-awesome": "^1.0.2",
     "font-awesome": "^4.7.0",
-    "nuxt": "^1.0.0-rc11",
-    "push-dir": "^0.4.1"
+    "nuxt": "^1.4.0",
+    "push-dir": "^0.4.1",
+    "vue": "^2.5.16",
+    "vuetify": "^1.0.17"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
