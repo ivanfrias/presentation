@@ -36,11 +36,6 @@ module.exports = {
         })
       }
     },
-    maxChunkSize: 500000,
-  },
-
-  router: {
-	  base: '/main'
   },
 
   plugins : ['~/plugins/vuetify'],
