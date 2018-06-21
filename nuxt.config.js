@@ -39,7 +39,7 @@ module.exports = {
   },
 
   router: {
-	  base: '/presentation/'
+	  base: '/main'
   },
 
   plugins : ['~/plugins/vuetify'],
