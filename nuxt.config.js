@@ -1,9 +1,16 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/work-in-progress/'
+  }
+} : {}
+
 module.exports = {
+  routerBase,
   /*
   ** Headers of the page
   */
   head: {
-    title: 'portfolio',
+    title: 'work-in-progress',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
