@@ -5,6 +5,8 @@
   "author": "Ivan Frias <frias.ivan@gmail.com>",
   "private": true,
   "scripts": {
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
